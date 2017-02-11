@@ -26,6 +26,8 @@ class Nikkiup2u3word:
     def help(self):
         self.about()
         print "参数说明："
+        print "python nikkiup2u3word.py <--help> <--source (url)> <--output (file)> <--separate (string)>"
+        print "不加任何参数：全部参数按照默认值进行提取。"
         print "--help 或 -h 或 /? ：显示此帮助文本。"
         print "--source 或 -s 或 /s <网址> ：指定数据源。\n　　默认值："+self.datasource
         print "--output 或 -o 或 /o <文件路径> ：指定输出到文件。\n　　默认值："+self.output
